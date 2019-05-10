@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="75dp">
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:hint="Yasaman"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txt_password"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/txt_name"
+        android:hint="Yasaman"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/txt_contact"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/txt_password"
+        android:hint="Yasaman"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/txt_country"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/txt_contact"
+        android:hint="Yasaman"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+</RelativeLayout>
